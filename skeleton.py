@@ -44,6 +44,6 @@ if len(period)<1 : period ='week'
 
 with open("token.txt") as ft:
     token = ft.read()
-print token
+# print token
 
 doSomething(dateRange, period, token)
